@@ -1,0 +1,23 @@
+/* GSM de 320px au 575px */
+@media (min-width: 320px) and (max-width: 575px) { 
+    .containerBody{
+        width: 100%;
+    }
+}
+
+/* tablet ou plus que 768px */
+/* Laptop ou plus que 1024px */
+@media (min-width: 576px) and (max-width: 767px) { 
+    .containerBody{
+        width: 80%;
+        margin: auto;
+    }
+}
+/* Laptop ou plus que 1024px */
+@media (min-width: 767px) and (max-width: 2028px){
+    .containerBody{
+        width: 60%;
+        margin: auto;
+    }
+
+}

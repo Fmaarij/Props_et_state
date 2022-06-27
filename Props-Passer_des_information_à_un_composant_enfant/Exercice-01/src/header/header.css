@@ -1,0 +1,35 @@
+/* GSM de 320px au 575px */
+@media (min-width: 320px) and (max-width: 575px) { 
+    .header {
+        display: flex;
+        flex-direction: column !important;
+        background-color: green !important;
+        padding-bottom: 0.8rem;
+    }
+    }
+
+/* tablet ou plus que 768px */
+/* Laptop ou plus que 1024px */
+@media (min-width: 576px) and (max-width: 767px) { 
+    .header {
+        display: flex;
+        flex-direction: column !important;
+        background-color: red !important;
+    }
+    }
+/* Laptop ou plus que 1024px */
+@media (min-width: 767px) and (max-width: 2028px){
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px green Solid;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+}
+
+
+

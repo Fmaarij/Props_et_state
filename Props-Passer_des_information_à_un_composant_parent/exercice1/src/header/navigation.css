@@ -1,0 +1,14 @@
+ul{
+    display:flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    /* text-decoration: none; */
+    gap: 1rem;
+}
+li button{
+    color: #fff;
+    border: 1px gray solid;
+    background: none;
+    cursor: pointer;
+}

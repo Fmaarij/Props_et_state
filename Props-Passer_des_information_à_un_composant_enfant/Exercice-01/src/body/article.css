@@ -1,0 +1,101 @@
+/* GSM de 320px au 575px */
+@media (min-width: 320px) and (max-width: 575px) { 
+    .ligne1{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: left;
+        color: #fff;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center !important;
+        margin: auto;
+    }
+    .img1 img{
+        width: 100%;
+       
+    }
+    .text-ligne1{
+        width: 100%;
+        color: rgba(255, 255, 255, 0.685);
+    }
+    .text-ligne1 p{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-ligne1 p span:nth-child(1){
+        background-color: rgba(255, 255, 255, 0.739);
+        color: #000;
+        border-radius: 3%;
+        padding:0.5rem;
+        width: 50%;
+        margin: auto;
+        
+    }
+    .text-ligne1 p span:nth-child(2){
+        color: rgb(105, 221, 105);
+        font-size: 16px;
+        padding-bottom: 0.3rem;
+        padding-top: 0.3rem;
+    }
+}
+
+/* tablet ou plus que 768px */
+/* Laptop ou plus que 1024px */
+@media (min-width: 576px) and (max-width: 767px) { 
+    .ligne1{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: left;
+        color: #fff;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center !important;
+        margin: auto;
+    }
+}
+/* Laptop ou plus que 1024px */
+@media (min-width: 767px) and (max-width: 2028px){
+    .ligne1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: left;
+        color: #fff;
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important;
+        text-align: left;
+        margin: auto;
+    }
+    .img1 img{
+        width: 60%;
+       
+    }
+    .text-ligne1{
+        width: 100%;
+        color: rgba(255, 255, 255, 0.685);
+    }
+    .text-ligne1 p{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-ligne1 p span:nth-child(1){
+        background-color: #fff;
+        color: #000;
+        border-radius: 3%;
+        padding:0.5rem;
+        width: 50%;
+        
+    }
+    .text-ligne1 p span:nth-child(2){
+        color: rgb(105, 221, 105);
+        font-size: 16px;
+        padding-bottom: 0.3rem;
+        padding-top: 0.3rem;
+    }
+
+}
+
+
+
+
+
+
